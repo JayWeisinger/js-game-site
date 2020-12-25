@@ -115,6 +115,7 @@ const square = document.querySelectorAll('.square');
 const mole = document.querySelectorAll('.mole');
 const timeLeft = document.querySelector('#time-left');
 let score = document.querySelector('#score');
+var moleBoard = document.querySelector('.grid2'); moleBoard.addEventListener('click', startCountDown);
 
 let result = 0;
 let currentTime = timeLeft.textContent;
@@ -156,4 +157,6 @@ function countDown() {
     }
 }
 
-let timerId = setInterval(countDown, 1000);
+function startCountDown() {
+    let timerId = setInterval(countDown, 1000);
+}
