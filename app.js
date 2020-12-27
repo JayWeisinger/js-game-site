@@ -163,7 +163,8 @@ function startCountDown() {
 
 // connect-4 section fix bug that if this section is gone the rest of the page works also addd another dom event listener its fine
 
-//fixed issue the issue. had to add the event listener and make sure the first part of the for loop where "i" is set is ended with a comma not a semicolon
+//fixed issue the issue. had to add the event listener and fix syntactial issue
+
 
 document.addEventListener('DOMContentLoaded', () => {
     const squares = document.querySelectorAll('.grid3 div');
@@ -171,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const displayCurrentPlayer = document.querySelector('#current-player');
     let currentPlayer = 1;
 
-    for (var i = 0, len = squares.length; i < len; i++) {
+    for (var i = 0; i < squares.length; i++) {
 
         (function(index) {
         //add an onclick to each square in your grid
