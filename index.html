@@ -10,7 +10,18 @@
 
     <nav id="navbar">
       <ul>
-        <li>Memory Game</li>
+        <li>
+          <div class="dropdown">
+            <div class="dropbtn" id="memory-game">
+              Game List
+            </div>
+            <div class="dropdown-content">
+              <a href="#memory-game">Memory Game</a>
+              <a href="#whack-a-mole">Whack a Mole!</a>
+              <a href="#connect-4">Connect Four</a>
+            </div>
+          </div>
+        </li>
         <li>Github</li>
         <li></li>
       </ul>
@@ -24,7 +35,7 @@
 
     <section class="game-section">
 
-      <header id="game-header">
+      <header class="game-header" >
         <h2>
           Memory Game
         </h2>
@@ -43,7 +54,7 @@
 
     <section class="game-section2">
 
-      <header id="game-header">
+      <header class="game-header" id="whack-a-mole">
         <h2>Whack a mole!</h2>
       </header>
 
@@ -70,19 +81,20 @@
 
     </section>
 
-    <section class='game-section2'>
-      <header id='game-header'>
+    <section class='game-section3'>
+      <header class='game-header' id="connect-4">
         <h2>
           Connect Four
         </h2>
       </header>
 
-      <div id="container">
-      <h2 class="current-player">
-        The current Player is: Player<span id="current-player">1</span>
-      </h2>
-
-      <h2 id="result2"></h2>
+      <div id="connect-text">
+        <h2 class="current-player">
+          The current Player is: Player<span id="current-player">1</span>
+        </h2>
+  
+        <h2 id="result2"></h2>
+      </div>
 
       <div class="grid3">
         <div id="square4"></div>
@@ -134,7 +146,6 @@
         <div class="taken" id="square4"></div>
         <div class="taken" id="square4"></div>
         <div class="taken" id="square4"></div>
-      </div>
       </div>
 
       <div id="grid-bottom">
