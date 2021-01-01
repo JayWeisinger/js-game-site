@@ -26,10 +26,9 @@
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;
+  cursor: pointer;
   border: none;
   outline: none;
-  color: white;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -40,7 +39,6 @@
   position: absolute;
   background-color: gainsboro;
   min-width: 160px;
-  z-index: 1;
 }
 
 .dropdown-content a {
@@ -191,3 +189,28 @@ ul > li {
   margin-top: 150px;
 }*/
 
+.snake-game{
+  margin: 100px 0;
+}
+
+.grid4 {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  background-color: white;
+}
+
+.grid4 div {
+  width: 40px;
+  height: 40px;
+}
+
+.snake {
+  background-color: blue;
+}
+
+.apple {
+  background-color: purple;
+}
