@@ -2,8 +2,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <title>Memory Game</title>
+    <title>Javascript Games</title>
     <link rel="stylesheet" href="style.css"></link>
+    <script>
+      window.addEventListener("keydown", function(e) {
+       if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+       e.preventDefault();
+       }
+      }, false);
+      </script>
   </head>
   
   <body>
@@ -19,6 +26,8 @@
               <a href="#memory-game">Memory Game</a>
               <a href="#whack-a-mole">Whack a Mole!</a>
               <a href="#connect-4">Connect Four</a>
+              <a href="#Snake">Snake</a>
+              <a href="#Space-Invaders">Space Invaders</a>
             </div>
           </div>
         </li>
@@ -274,14 +283,18 @@
         </div>
       </div>
 
-      <div id="grid-bottom">
-
-      </div>
+      
 
     </section>
 
-    <section>
+    <section class="game-section2">
 
+      <header class="game-header" id="Space-Invaders">
+        <h2>Space Invaders</h2>
+      </header>
+
+
+      <div id="space-invader-game">
       <h3>
         Score:<span id="result3"></span>
       </h3>
@@ -508,6 +521,107 @@
         <div></div>
         <div></div>
         <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      </div>
+
+      <div id="grid-bottom">
+
+      </div>
+    </section>
+
+    <section>
+
+      <button id="button">
+        Start/Pause
+      </button>
+
+      <h3>
+        Seconds left:<span id="time-left">20</span>
+      </h3>
+      <h3 id="result4"></h3>
+      
+      <div class="grid6">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="ending-block"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="log-left l1"></div>
+        <div class="log-left l2"></div>
+        <div class="log-left l3"></div>
+        <div class="log-left l4"></div>
+        <div class="log-left l5"></div>
+        <div class="log-left l1"></div>
+        <div class="log-left l2"></div>
+        <div class="log-left l3"></div>
+        <div class="log-left l4"></div>
+        <div class="log-right l5"></div>
+        <div class="log-right l1"></div>
+        <div class="log-right l2"></div>
+        <div class="log-right l3"></div>
+        <div class="log-right l4"></div>
+        <div class="log-right l5"></div>
+        <div class="log-right l1"></div>
+        <div class="log-right l2"></div>
+        <div class="log-right l3"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="car-right c1"></div>
+        <div class="car-right c2"></div>
+        <div class="car-right c3"></div>
+        <div class="car-right c1"></div>
+        <div class="car-right c2"></div>
+        <div class="car-right c3"></div>
+        <div class="car-right c1"></div>
+        <div class="car-right c2"></div>
+        <div class="car-right c3"></div>
+        <div class="car-left c1"></div>
+        <div class="car-left c2"></div>
+        <div class="car-left c3"></div>
+        <div class="car-left c1"></div>
+        <div class="car-left c2"></div>
+        <div class="car-left c3"></div>
+        <div class="car-left c1"></div>
+        <div class="car-left c2"></div>
+        <div class="car-left c3"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="starting-block"></div>
         <div></div>
         <div></div>
         <div></div>

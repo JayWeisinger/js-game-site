@@ -215,6 +215,10 @@ ul > li {
   background-color: purple;
 }
 
+#space-invader-game {
+  margin: 200px 0;
+}
+
 .grid5 {
   display: flex;
   flex-wrap: wrap;
@@ -243,4 +247,45 @@ ul > li {
 
 .laser {
   background-color: orange;
+}
+
+.grid6 {
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  height: 180px;
+  width: 180px;
+}
+
+.grid6 div {
+  height: 20px;
+  width: 20px;
+}
+
+.ending-block {
+  background-color: red;
+}
+
+.starting-block {
+  background-color: blue;
+}
+
+.c1 {
+  background-color: black;
+}
+
+.c2, .c3 {
+  background-color: gray;
+}
+
+.l1, .l2, .l3 {
+  background-color: brown;
+}
+
+.l4, .l5 {
+  background-color: lightblue;
+}
+
+.frog {
+  background-color: green;
 }
