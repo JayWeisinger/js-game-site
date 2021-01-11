@@ -216,7 +216,8 @@ ul > li {
 }
 
 #space-invader-game {
-  margin: 200px 0;
+  margin-top: 200px;
+  margin-bottom: 150px;
 }
 
 .grid5 {
@@ -247,6 +248,10 @@ ul > li {
 
 .laser {
   background-color: orange;
+}
+
+#frogger-game {
+  margin: 200px 0;
 }
 
 .grid6 {
@@ -289,3 +294,51 @@ ul > li {
 .frog {
   background-color: green;
 }
+
+
+
+.grid7 {
+  background-color: yellow;
+  height: 400px;
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.grid7 div {
+  height: 20px;
+  width: 20px;
+}
+
+.previous-grid {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+}
+
+.previous-grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.previous-shape {
+  height: 100px;
+  width: 100px;
+  padding-bottom: 10px;
+}
+
+.block {
+  background-color: blue;
+}
+
+.block2 {
+  background-color: purple;
+}
+
+.block3 {
+  background-color: green;
+}
+
