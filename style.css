@@ -11,11 +11,21 @@
 }
 
 #navbar {
-  background-color: gainsboro;
+  /*background-color: rgb(207, 200, 191);*/
+  background-color: rgb(228, 215, 199);
   height: 60px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+  flex-direction: row;
+}
+
+button {
+  border-style: none;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: rgb(66, 90, 107);
+  color: white;
 }
 
 #navbar a {
@@ -23,6 +33,11 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  color: black;
+}
+
+#navbar h2 {
+  margin-left: 30px;
 }
 
 .dropdown .dropbtn {
@@ -37,7 +52,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: gainsboro;
+  background-color: rgb(228, 215, 199);
   min-width: 160px;
 }
 
@@ -64,27 +79,34 @@ ul > li {
 
 #header {
   text-align: center;
-  padding: 20px;
-  
+  padding: 30px;
+  background-color: rgb(231, 230, 230);
 }
 
 .game-section {
-  background-color: gainsboro;
+  background-color: rgb(231, 230, 230);
   height: 100vh;
   display: grid;
-  grid-template-rows: 100px 1fr ;
+  grid-template-rows: 100px 1fr;
   justify-items: center;
   align-items: center;
 }
 
+.directions {
+  margin-bottom: 10px;
+}
+
 .game-header {
-  width: 100%;
+  width: 75%;
   height: 100%;
   text-align: center;
-  background-color: whitesmoke;
+  /*background-color: rgb(203, 221, 214);*/
+  background-color: rgb(66, 90, 107);
+  border-radius: 3px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .container {
@@ -124,12 +146,13 @@ ul > li {
 }
 
 .mole {
-  background-image: url('mole.jpg');
+  background-image: url("mole.jpg");
   background-size: cover;
 }
 
 .game-section3 {
   background-color: gainsboro;
+  background-color: rgb(231, 230, 230);
   display: grid;
   grid-template-rows: 100px 100px 1fr 100px;
   justify-items: center;
@@ -142,7 +165,6 @@ ul > li {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  
 }
 
 .grid3 {
@@ -160,18 +182,17 @@ ul > li {
   width: 80px;
 }
 
-
 .player-one {
   background-color: red;
   border-radius: 40px;
 }
 
 .player-two {
-  background-color:blue;
+  background-color: blue;
   border-radius: 40px;
 }
 
-.snake-game{
+.snake-game {
   margin: 100px 0;
 }
 
@@ -195,6 +216,10 @@ ul > li {
 
 .apple {
   background-color: purple;
+}
+
+#space-invaders-section {
+  background-color: rgb(231, 230, 230);
 }
 
 #space-invader-game {
@@ -261,15 +286,19 @@ ul > li {
   background-color: black;
 }
 
-.c2, .c3 {
+.c2,
+.c3 {
   background-color: gray;
 }
 
-.l1, .l2, .l3 {
+.l1,
+.l2,
+.l3 {
   background-color: brown;
 }
 
-.l4, .l5 {
+.l4,
+.l5 {
   background-color: lightblue;
 }
 
@@ -278,7 +307,7 @@ ul > li {
 }
 
 .game-section4 {
-  background-color: gainsboro;
+  background-color: rgb(231, 230, 230);
   display: grid;
   grid-template-rows: 100px 100px 100px 1fr;
   justify-items: center;
@@ -293,7 +322,6 @@ ul > li {
   display: inline-block;
   padding-left: 20px;
 }
-  
 
 .grid7 {
   background-color: yellow;
@@ -301,6 +329,7 @@ ul > li {
   width: 200px;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .grid7 div {
@@ -338,4 +367,3 @@ ul > li {
 .block3 {
   background-color: green;
 }
-
